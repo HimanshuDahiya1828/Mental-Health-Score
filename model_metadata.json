@@ -1,0 +1,93 @@
+{
+  "feature_columns": [
+    "Study_Hours",
+    "Age",
+    "Avg_Daily_Usage_Hours",
+    "Daily_Unlocks",
+    "Physical_Activity_Hours",
+    "Sleep_Hours_Per_Night",
+    "Stress_Level",
+    "Gender",
+    "Academic_Level",
+    "Most_Used_Platform",
+    "Purpose_Of_Use",
+    "Grouped_country"
+  ],
+  "top_countries": [
+    "Other",
+    "India",
+    "USA",
+    "Canada",
+    "Australia",
+    "UK",
+    "Germany",
+    "Turkey",
+    "Mexico",
+    "France"
+  ],
+  "numeric_defaults": {
+    "Age": 21.0,
+    "Avg_Daily_Usage_Hours": 5.0,
+    "Daily_Unlocks": 171.0,
+    "Study_Hours": 2.8,
+    "Physical_Activity_Hours": 1.7,
+    "Sleep_Hours_Per_Night": 6.6
+  },
+  "numeric_ranges": {
+    "Age": [
+      18.0,
+      24.0
+    ],
+    "Avg_Daily_Usage_Hours": [
+      1.0,
+      8.8
+    ],
+    "Daily_Unlocks": [
+      62.0,
+      273.0
+    ],
+    "Study_Hours": [
+      0.3,
+      8.3
+    ],
+    "Physical_Activity_Hours": [
+      0.0,
+      4.1
+    ],
+    "Sleep_Hours_Per_Night": [
+      3.6,
+      9.9
+    ]
+  },
+  "categorical_options": {
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "Academic_Level": [
+      "Graduate",
+      "High School",
+      "Undergraduate"
+    ],
+    "Most_Used_Platform": [
+      "Facebook",
+      "Instagram",
+      "KakaoTalk",
+      "LINE",
+      "LinkedIn",
+      "Snapchat",
+      "TikTok",
+      "Twitter",
+      "VKontakte",
+      "WeChat",
+      "WhatsApp",
+      "YouTube"
+    ],
+    "Purpose_Of_Use": [
+      "Education",
+      "Entertainment",
+      "Networking",
+      "News"
+    ]
+  }
+}
